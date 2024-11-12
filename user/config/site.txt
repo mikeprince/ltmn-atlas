@@ -1,5 +1,5 @@
 name: LTMN Demo
-header-background-colour: "#00A33B​"
+header-background-colour: #00a33b​
 header-text-colour: white
 header-logo: NatEng_logo_New-Green.png
 header-logo-height: 120
@@ -25,7 +25,7 @@ overview:
   buffer-east: 10000
   buffer-south: 10000
   buffer-north: 10000
-  land-colour: "#eeeeee"
+  land-colour: #eeeeee
   boundary-colour: black
   grid-colour: black
   boundary-width: 1.7
