@@ -1,5 +1,5 @@
-nname: LTMN Demo
-header-background-colour: "#EF9766"
+name: LTMN Demo
+header-background-colour: "#00ab52"
 header-text-colour: white
 header-logo: NatEng_logo_New-Green.png
 header-logo-height: 120
@@ -11,12 +11,6 @@ tabs:
     caption: Overview
   - tab: zoom
     caption: Explore
-  - tab: details
-    caption: Info
-  - tab: charts
-    caption: Temporal
-  - tab: gallery
-    caption: Gallery
 overview:
   height: 900
   boundary: england
@@ -30,7 +24,7 @@ overview:
   grid-colour: black
   boundary-width: 1.7
   download-control: true
-  download-text: LTMN data from NBN on 12/11/2024.
+  download-text: LTMN data from NBN on 12/11/2024
   download-info: true
 zoom:
   height: 700
@@ -40,7 +34,7 @@ common:
   dot-shape: control
   dot-opacity: control
   dot-colour: "#F28A22"
-  map-types: standard density timeslice
+  map-types: standard density
   legends:
     - id: density
       x: 10
@@ -50,9 +44,6 @@ common:
       x: 10
       y: 10
       scale: 1.2
-  timeslice:
-    threshold1: 1999
-    threshold2: 2009
 charts:
   aspect-ratio: 0.4
   yearly-min: 1990
