@@ -1,5 +1,5 @@
-name: LTMN Demo
-header-background-colour: #00a33b​
+nname: LTMN Demo
+header-background-colour: "#00a33b​"
 header-text-colour: white
 header-logo: NatEng_logo_New-Green.png
 header-logo-height: 120
@@ -19,13 +19,13 @@ tabs:
     caption: Gallery
 overview:
   height: 900
-  boundary: gb21
+  boundary: england
   grid-display: dashed
   buffer-west: 10000
   buffer-east: 10000
   buffer-south: 10000
   buffer-north: 10000
-  land-colour: #eeeeee
+  land-colour: "#eeeeee"
   boundary-colour: black
   grid-colour: black
   boundary-width: 1.7
@@ -39,7 +39,7 @@ common:
   resolution: monad tetrad hectad
   dot-shape: control
   dot-opacity: control
-  dot-colour: #F28A22
+  dot-colour: "#F28A22"
   map-types: standard density timeslice
   legends:
     - id: density
